@@ -1,0 +1,19 @@
+body {
+  min-width: 320px;
+  position: relative;
+  line-height: 1;
+  overflow-x: hidden;
+  opacity: 1;
+}
+
+.container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
