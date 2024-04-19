@@ -5,5 +5,5 @@ import { resolve } from 'path';
 
 export default defineConfig({
   // Остальные настройки...
-  root: resolve(__dirname, 'src/html'),
+  root: resolve(__dirname, 'src'),
 });
