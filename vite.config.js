@@ -5,5 +5,9 @@ import { resolve } from 'path';
 
 export default defineConfig({
   // Остальные настройки...
-  root: resolve(__dirname, 'src'),
+  root: 'src',
+
+  build: {
+    outDir: '../dist',
+  },
 });
