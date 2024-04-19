@@ -5,10 +5,53 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3legant shop</title>
+    <link rel="stylesheet" href="./scss/index/index.scss" />
   </head>
   <body>
-    <p>erkognerogn[ergioerninrei[er</p>
+    <!-- <include src="./partials/index/header.html"></include>
+    <load src="./partials/index/header.html" /> -->
+    <header>
+      <div class="announcement">
+        <svg width="17" height="16">
+          <use href="./public/symbol-defs.svg#icon-ticket"></use>
+        </svg>
+        <p>30% off storewide — Limited time!</p>
+        <button class="close-button">
+          <svg width="11" height="10">
+            <use href="./public/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
 
+      <div class="container">
+        <nav>
+          <ul class="menu">
+            <li>
+              <button class="burger-button">
+                <svg class="burger-icon" width="12" height="10">
+                  <use href="./public/symbol-defs.svg#icon-burger"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <a class="logo" href="./index.html">3legant<span>.</span> </a>
+            </li>
+          </ul>
+          <ul class="header-menu">
+            <li>
+              <button class="shopping-bag-button">
+                <svg class="shopping-bag-icon" width="22" height="22">
+                  <use href="./public/symbol-defs.svg#icon-shopping-bag"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <div class="notification"><p>2</p></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <script type="module" src="./js/index/index.js"></script>
   </body>
 </html>

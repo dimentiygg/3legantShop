@@ -1,0 +1,103 @@
+@import '../reset.scss';
+@import '../base.scss';
+@import '../variables.scss';
+@import '../../css/fonts.css';
+.announcement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 32px;
+  background: $neutral-02-100;
+
+  p {
+    margin-right: 14px;
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 167%;
+    text-align: center;
+    color: neutral-05-100;
+  }
+}
+
+.close-button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 18px 0 18px 0;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.burger-button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+}
+
+.burger-icon {
+  stroke-width: 1.5px;
+  stroke: $neutral-07-100;
+}
+
+.logo {
+  font-family: $second-family;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $brand-color;
+
+  span {
+    color: $neutral-04-100;
+  }
+}
+
+.shopping-bag-button {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  line-height: 0;
+}
+.shopping-bag-icon {
+  fill: none;
+  stroke: $neutral-07-100;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: black;
+
+  p {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 83%;
+    text-align: center;
+    color: white;
+  }
+}
