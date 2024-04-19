@@ -8,7 +8,7 @@ export default defineConfig({
   root: 'src/html',
 
   build: {
-    outDir: './src/dist',
+    outDir: '../dist',
   },
 });
 ('');
