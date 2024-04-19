@@ -5,7 +5,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   // Остальные настройки...
-  root: 'src',
+  root: 'src/html',
 
   build: {
     outDir: '../dist',
