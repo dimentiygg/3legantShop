@@ -1,0 +1,86 @@
+.product-carousel {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.carousel-list {
+  display: flex;
+  gap: 16px;
+  img {
+    min-width: 231px;
+    min-height: 308px;
+  }
+  li {
+    position: relative;
+  }
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0 40px 0;
+
+  h2 {
+    font-family: &font-family;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: $neutral-07-100;
+  }
+
+  p {
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 157%;
+    color: $neutral-07-100;
+  }
+}
+
+.price-list {
+  position: relative;
+  height: 22px;
+}
+
+.disabled-price {
+  position: absolute;
+  bottom: 22px;
+  left: 66px;
+
+  p {
+    font-weight: 400;
+    text-decoration: line-through;
+    color: $neutral-04-100;
+  }
+}
+
+.carousel-container {
+  min-width: 311px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.carousel-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.carousel-container::-webkit-scrollbar-track {
+  background: $neutral-03-100;
+  border-radius: 80px;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+  background: $neutral-05-100;
+  border-radius: 80px;
+}
+
+.raiting-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.new-container {
+  padding-right: 0;
+}
