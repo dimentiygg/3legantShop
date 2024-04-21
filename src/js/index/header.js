@@ -5,6 +5,12 @@ const mobileCloseBtn = document.querySelector('.mobile-close-button');
 const backdrop = document.querySelector('.backdrop ');
 const mobileMenu = document.querySelector('.mobile-menu');
 const burgerButton = document.querySelector('.burger-button');
+const closeAnnouncement = document.querySelector('.close-button');
+const announcement = document.querySelector('.announcement');
+
+closeAnnouncement.addEventListener('click', event => {
+  announcement.style.display = 'none';
+});
 
 burgerButton.addEventListener('click', event => {
   backdrop.classList.add('is-open');

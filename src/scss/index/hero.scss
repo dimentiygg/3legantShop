@@ -4,7 +4,7 @@
 }
 
 .hero-title {
-  width: 311px;
+  max-width: 311px;
   margin: 0 auto;
   margin-top: 32px;
   font-family: $second-family;
@@ -39,7 +39,7 @@
 
 .text {
   margin: 0 auto;
-  width: 316px;
+  max-width: 316px;
 }
 
 .swiper-pagination {
