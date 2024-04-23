@@ -59,3 +59,33 @@
   fill: none;
   stroke: $neutral-07-100;
 }
+
+//=================================TABLET SRYLES==================================================
+@media (min-width: 768px) {
+  .values-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .values-card-container {
+    min-width: 152px;
+    padding: 32px 16px;
+    height: 198px;
+    background: $neutral-02-100;
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .values-svgs {
+    margin: 0;
+    display: block;
+    fill: none;
+    stroke: $neutral-07-100;
+  }
+}
+//=================================/TABLET SRYLES==================================================
