@@ -11,9 +11,16 @@ body {
   margin-right: 32px;
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1024px) {
   .container {
-    padding-left: 160px;
-    padding-right: 160px;
+    margin-left: 64px;
+    margin-right: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin-left: 160px;
+    margin-right: 160px;
   }
 }

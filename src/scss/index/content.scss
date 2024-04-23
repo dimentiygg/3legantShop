@@ -72,3 +72,14 @@
     fill: $neutral-07-100;
   }
 }
+
+//=================================TABLET SRYLES==================================================
+@media (min-width: 768px) {
+  .content {
+    background-image: url('../../images/others/mobile/newsletter.png');
+    background-repeat: no-repeat;
+    // background-size: cover;
+    background-position: center;
+  }
+}
+//=================================/TABLET SRYLES==================================================

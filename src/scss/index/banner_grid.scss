@@ -38,12 +38,38 @@
     width: 100%;
     object-fit: cover;
   }
+}
 
-  .luxury_sofa {
-    height: 350px;
-    object-position: 50% 70%;
+.big-img-wrapper {
+  position: relative;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid $neutral-07-100;
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    color: $neutral-07-100;
   }
 }
+
+.luxury_sofa {
+  margin-bottom: 16px;
+  height: 350px;
+  object-position: 50% 70%;
+  min-width: 311px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .living-room-title {
   position: absolute;
   top: 32px;
@@ -94,3 +120,53 @@
 .arrow-right {
   stroke: $neutral-07-100;
 }
+
+//=================================TABLET SRYLES==================================================
+@media (min-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .big-img-wrapper {
+    width: 100%;
+  }
+
+  .menu-banners {
+    width: 100%;
+
+    li {
+      height: -webkit-fill-available;
+    }
+    img {
+      min-height: 180px;
+      object-fit: cover;
+      height: auto;
+    }
+  }
+
+  .luxury_sofa {
+    height: auto;
+    min-height: 377px;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+}
+
+//=================================/TABLET STYLES==================================================
+// ================================DESKTOP STYLES==========================================
+@media (min-width: 1024px) {
+  .flex {
+    gap: 24px;
+  }
+  .big-img-wrapper {
+    max-width: 548px;
+  }
+  .menu-banners {
+    max-width: 548px;
+  }
+}
+
+// ================================/DESKTOP STYLES==========================================
