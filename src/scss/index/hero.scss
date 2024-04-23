@@ -89,8 +89,25 @@
   background-color: #fefefe;
 }
 
+//=================================TABLET SRYLES==================================================
 @media (min-width: 768px) {
   .hero-wrapper {
     width: auto;
   }
+  .hero-title {
+    max-width: 530px;
+    font-size: 72px;
+    line-height: 106%;
+    letter-spacing: -0.03em;
+  }
 }
+
+//=================================/TABLET SRYLES==================================================
+
+// ================================DESKTOP STYLES===========================================
+@media (min-width: 1024px) {
+  .hero-wrapper {
+    max-width: 1120px;
+  }
+}
+// ================================/DESKTOP STYLES===========================================

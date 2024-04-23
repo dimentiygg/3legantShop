@@ -45,3 +45,31 @@
     margin-bottom: 16px;
   }
 }
+
+//=================================TABLET SRYLES==================================================
+@media (min-width: 768px) {
+  .articles-list {
+    flex-direction: row;
+    img {
+      height: auto;
+      min-width: 210px;
+    }
+  }
+}
+//=================================/TABLET SRYLES==================================================
+// ================================DESKTOP STYLES===========================================
+@media (min-width: 1024px) {
+  .articles-list {
+    max-width: 1121px;
+    li {
+      width: 100%;
+    }
+    img {
+      height: auto;
+      min-width: 280px;
+      max-width: 357px;
+      max-height: 325px;
+    }
+  }
+}
+// ================================/DESKTOP STYLES===========================================
