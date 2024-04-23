@@ -7,6 +7,15 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const burgerButton = document.querySelector('.burger-button');
 const closeAnnouncement = document.querySelector('.close-button');
 const announcement = document.querySelector('.announcement');
+const announcementBtn = document.querySelector('.header-button');
+const headerNavMenu = document.querySelector('.header-nav-menu');
+if (window.innerWidth < 768) {
+  announcementBtn.style.display = 'none';
+  headerNavMenu.style.display = 'none';
+} else {
+  announcementBtn.style.display = 'flex';
+  burgerButton.style.display = 'none';
+}
 
 closeAnnouncement.addEventListener('click', event => {
   announcement.style.display = 'none';

@@ -28,6 +28,20 @@
 
   li {
     position: relative;
+    min-width: 311px;
+    width: 100%;
+  }
+
+  img {
+    height: 275px;
+    min-width: 311px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .luxury_sofa {
+    height: 350px;
+    object-position: 50% 70%;
   }
 }
 .living-room-title {

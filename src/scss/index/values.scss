@@ -3,21 +3,28 @@
 }
 
 .values-list {
-  width: 312px;
+  min-width: 312px;
   margin: 0 auto;
   margin-bottom: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Два столбца с одинаковой шириной */
+  grid-gap: 20px; /* Отступ между элементами */
+
+  li {
+    width: 100%;
+  }
 }
 
 .values-card-container {
-  width: 152px;
+  min-width: 152px;
   padding: 32px 16px;
   height: 198px;
   background: $neutral-02-100;
 
   h3 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
     margin-top: 16px;
     font-family: v$font-family;
     font-weight: 600;
@@ -27,6 +34,7 @@
   }
 
   p {
+    margin: 0 auto;
     width: 70px;
     margin-top: 8px;
     font-family: $font-family;
@@ -46,6 +54,8 @@
 }
 
 .values-svgs {
+  margin: 0 auto;
+  display: block;
   fill: none;
   stroke: $neutral-07-100;
 }
